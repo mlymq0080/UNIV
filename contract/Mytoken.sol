@@ -146,10 +146,4 @@ contract Mytoken is ConText{
         }
     }
 
-    
 }
-    
-
-
-
-
