@@ -5,7 +5,7 @@ pragma solidity ^0.8.22;
 import "./ConText.sol";
 
 //is 继承 
-contract Mytoken2 is ConText{
+contract Mytoken is ConText{
     // 1 代币信息
 
     // 代币名称 name
@@ -18,7 +18,7 @@ contract Mytoken2 is ConText{
     uint256 private _totalSupply;
     // 代表数量 balance
     mapping(address => uint256) private _balance; 
-    // 授权代币数量 allowance
+    // 授权代币数量  allowance
     mapping(address => mapping(address => uint256)) private _allowance;
 
     // 2.初始化
@@ -29,6 +29,8 @@ contract Mytoken2 is ConText{
 
        //初始化货币池
         _mint(_msgSender(), initialSupply * (10 ** uint256(_decimals)));
+        //燃烧的方法
+        
     }
 
     // 3.取值器

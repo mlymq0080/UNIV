@@ -252,7 +252,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/Mytoken.sol": "Mytoken2"
+			"contract/Mytoken.sol": "Mytoken"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -275,11 +275,11 @@
 			]
 		},
 		"contract/Mytoken.sol": {
-			"keccak256": "0x54709c05f973561dbcca7e1bed62a7dd5a6dfbf4c96861f6c8b01b19a8dea3d0",
+			"keccak256": "0xe9e7fc4ca602cc56f9023d5799e51d1a52f1ce45ffba57253f884331d1e32393",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f77727552598116d0006cc910960c163fcdfa55c426f489010af95d279fd48d0",
-				"dweb:/ipfs/Qmc5uTjt5mGM45DrD6J5LXtXLubvkxmi9r5y4kXzWgdVYx"
+				"bzz-raw://cd09f9e185b030545aa925d5866d62e3144cc9334a5f8b0ead95b4fa8602b055",
+				"dweb:/ipfs/QmTCpnqaepuDkcL6Ukj1uGET2YkFG5baBtfDg6QkaBninE"
 			]
 		}
 	},
